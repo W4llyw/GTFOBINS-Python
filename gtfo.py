@@ -12,7 +12,7 @@ parser = argparse.ArgumentParser(
                       Quickly check if escaping from a bin is possible
                      --------------------------------------------------
                         >>>>>>> Powered by GTFObin.github.io <<<<<<<'''),
-    epilog=Fore.GREEN+"Example: GTFO.py -b  python -f \"sudo\"")
+    epilog=Fore.GREEN+"Example: gtfo.py -b  python -f \"sudo\"")
 
 parser.add_argument('-b','--bin', required=True, help="This will tell you if you can escape the binary and your options.")
 parser.add_argument('-f','--found', help="The discovered function for escaping the binary\"IN QUOTES\".")
