@@ -3,17 +3,17 @@ A Python script to Quickly search GTFOBin.github.io without having to leave your
 
 # Installation
 Clone this repository.
-```Shell
+```
 git clone https://github.com/W4llyw/GTFOBINS-Python.git
 ```
 
 From within the GTFOBINS-Python directory first install the requirements.
-```Shell
+```
 pip install -r requirements.txt
 ```
 
 # How to use
-```Shell
+```
 python3 gtfo.py -b  python -f "sudo"
 ```
 ## Options
@@ -45,6 +45,8 @@ Capabilities
 python3 GTFO-V3.py -b python -f "SUID"
 ```
 This will output the binary's options followed by the function you specified with an explaination and the Code for a possible escape.
+
+*Output:*
 ```
 You may be able to Escape check it out!
 https://gtfobins.github.io/gtfobins/python
