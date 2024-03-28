@@ -1,2 +1,4 @@
 # GTFOBINS-Python
-Search for possible Bin escapes from https://gtfobins.github.io using Python.
+A Python script to Quickly search GTFOBin.github.io without having to leave your terminal!
+
+# Installation
