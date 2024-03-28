@@ -17,7 +17,29 @@ pip install -r requirements.txt
 python3 gtfo.py -b  python -f "sudo"
 ```
 ## Options
-**-b** This option will tell you if you can escape the binary and the possible functions you can use for escaping.
+### -h
+Will output the help message.
+```
+python3 gtfo.py -h
+```
+*Output:*
+```
+usage: gtfo.py [-h] -b BIN [-f FOUND]
+
+                      Quickly check if escaping from a bin is possible
+                     --------------------------------------------------
+                        >>>>>>> Powered by GTFObin.github.io <<<<<<<
+
+options:
+  -h, --help            show this help message and exit
+  -b BIN, --bin BIN     This will tell you if you can escape the binary and your options.
+  -f FOUND, --found FOUND
+                        The discovered function for escaping the binary"IN QUOTES".
+
+Example: gtfo.py -b  python -f "sudo"
+```
+### -b 
+This option will tell you if you can escape the binary and the possible functions you can use for escaping.
 ```
 python3 gtfo.py -b python
 ```
@@ -40,7 +62,8 @@ Sudo
 Capabilities
 ```
 
-**-f** Once you have found a function that may allow you to escape from a specific binary, you can use the -f option with the discovered function in **"QUOTES"**.
+### -f 
+Once you have found a function that may allow you to escape from a specific binary, you can use the -f option with the discovered function in **"QUOTES"**.
 ```
 python3 GTFO-V3.py -b python -f "SUID"
 ```
